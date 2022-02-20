@@ -1,9 +1,12 @@
 import './Appli.scss';
+import Entete from './Entete';
+import Main from './Main';
 
 export default function Appli() {
   return (
     <div className="Appli">
-        Gabarit de base d'une Application React
+      <Entete />
+      <Main />
     </div>
   );
 }
