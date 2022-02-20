@@ -1,10 +1,11 @@
 import './Utilisateur.scss';
+import Avatar from '@mui/material/Avatar';
 
 export default function Utilisateur(props){
     return (
         <div className='Utilisateur'>
-            <h2>Nom de l'Utilisateur</h2>
-            {/* Ajouter un SVG ou img pour la photo de profil */}
+            <h2>Jean-Romain Roy</h2>
+            <Avatar>JR</Avatar>
         </div>
     );
 }
