@@ -1,10 +1,17 @@
 .InfoCarte{
     height: 175px;
     width: 100%;
-    margin-left: 25px;
 
     color: white;
 
     display: flex;
     flex-direction: column;
+
+    h1,h3{
+        margin-left: 25px;
+    }
+
+    &__more{
+       align-self: flex-end; 
+    }
 }
